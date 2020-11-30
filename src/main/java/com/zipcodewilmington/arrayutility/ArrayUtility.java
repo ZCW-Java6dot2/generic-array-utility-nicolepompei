@@ -38,7 +38,7 @@ public class ArrayUtility<SomeType> {
     }
 
     public Integer getNumberOfOccurrences(SomeType valueToEvaluate) {
-        ArrayList<SomeType>  valueList = new ArrayList<>();
+        List<SomeType>  valueList = new ArrayList<>();
         valueList.addAll(Arrays.asList(inputArray));
         return Collections.frequency(valueList, valueToEvaluate);
     }
